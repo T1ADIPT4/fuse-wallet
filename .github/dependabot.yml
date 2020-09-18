@@ -1,0 +1,18 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+`<! - Just one step: deploy using GitHub token ->
+ Use - Dregistry = https://maven.pkg.github.com/101 -Dtoken = GH_TOKEN`
+github: [octocat, surftocat]
+patreon: octocat
+tidelift: npm/octo-package
+custom: ["https://www.paypal.me/octocat", octocat.com]
+Note: If a custom URL in an array includes :, you must wrap the URL in quotes. For example, "https://www.paypal.me/octocat".
